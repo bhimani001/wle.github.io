@@ -1,0 +1,165 @@
+body{
+  .section-item{
+    height: 150vh;
+    padding: 7rem 0 0 6rem;
+    //margin-bottom: 3rem;
+    .head{
+      margin: 0 0 2rem 0;
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: 100;
+      padding: .5rem 3rem .5rem 0.5rem;
+      letter-spacing: 2px;
+      box-shadow: 1px 3px 7px #776767;
+      border-top: 8px solid #8289ef;
+    }
+    .sec-content{
+      display: block;
+      .sub-sec-content{
+        margin-bottom: 1rem;
+        list-style: none;
+        //height: 23vh;
+        padding:1rem;
+        transition: .4s;
+        &:hover{
+          box-shadow: 1px 1px 5px #776767;
+          border-top: 8px solid #8289ef;
+          background: #8289ef2e;
+        }
+        .c11{
+          h2{
+            padding: 6px 0;
+            font-size: 1.6rem;
+            font-weight: 500;
+          }
+          p{
+            //color: #c12d2d;
+            //font-size: 1.1rem;
+          }
+        }
+        button{
+          padding: 12px;
+          font-size: 16px;
+          margin: 1rem 0 0 0;
+          color: white;
+          background: #8289ef;
+          border: none;
+          border-radius: 9px;
+          &:hover{
+            box-shadow: 1px 1px 5px #776767;
+          }
+        }
+      }
+    }
+    .data{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      min-height: 130vh;
+      .con-cricle {
+        display: grid;
+        place-items: center;
+        .cricle {
+          background: #8289ef;
+          width: 45vw;
+          height: 90vh;
+          border-radius: 50%;
+          display: grid;
+          place-items: center;
+          text-align: center;
+          font-size: 2rem;
+          h2 {
+            color: #000000;
+            margin: 0 0 4rem 2rem ;
+            font-size: 2rem;
+            span{
+              display: block;
+              color: #feb81c;
+              font-size: 5rem;
+            }
+            p{
+              font-size: 1rem;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business{
+    background: #DCDCDC;
+    height: auto;
+  }
+  #engineering{
+    background:#FFFAF0;
+    height: auto;
+  }
+  #medical{
+    background:#DCDCDC;
+    height: auto;
+
+  }
+
+  @media only screen and (max-width: 1350px){
+    .section-item{
+      .data{
+        .con-cricle{
+          .cricle{
+            height: 75vh;
+          }
+        }
+      }
+    }
+  }
+    @media only screen and (max-width: 1220px){
+    .section-item{
+      padding: 7rem 1rem 1rem 6rem;
+      .sec-content{
+        order :2;
+      }
+      .data{
+        display: flex;
+        flex-direction: column;
+        .con-cricle{
+          .cricle{
+            height: 63vh;
+            h2{
+              font-size: 2rem;
+              span{
+                font-size: 4rem;
+              }
+              p{
+                font-size: 1rem;
+              }
+
+
+            }
+          }
+        }
+      }
+
+    }
+  }
+  @media only screen and (max-width: 1170px) {
+    .section-item{
+      .data{
+        .con-cricle{
+          .cricle{
+            height: 55vh;
+            width: 53vw;
+          }
+
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .section-item {
+      padding: 7rem 1rem 1rem 1rem;
+      .data{
+        .con-cricle{
+          display: none;
+        }
+      }
+    }
+  }
+}

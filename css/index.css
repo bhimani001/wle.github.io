@@ -1,0 +1,424 @@
+body {
+  background: white;
+}
+
+body #home .head {
+  padding: 1rem 7rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7b7b7b), color-stop(#000000), color-stop(#000000), to(#000000));
+  background-image: linear-gradient(180deg, #7b7b7b, #000000, #000000, #000000);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55% 45%;
+      grid-template-columns: 55% 45%;
+  height: auto;
+}
+
+body #home .head .content {
+  padding: 5rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #home .head .content h1 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #ffb91c;
+}
+
+body #home .head .content h1 span {
+  display: block;
+}
+
+body #home .head .content p {
+  font-size: 1.1rem;
+  color: #6f6c6c;
+}
+
+body #home .head .content label {
+  color: white;
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+body #home .head .content label #country {
+  margin-top: 1rem;
+  width: 18rem;
+  background: #000000;
+  border: 1px solid #ffb91c;
+  color: white;
+  border-radius: 7px;
+  padding: 0 8px;
+  height: 2.5rem;
+  font-size: 15px;
+  letter-spacing: 2px;
+  display: block;
+}
+
+body #home .head .content label .submit-btn {
+  padding: 6px 45px;
+  background: #ffb91cb3;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+body #home .head .content-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 65vh;
+}
+
+body #home .head .content-img img {
+  width: 30vw;
+  height: 25vh;
+  opacity: .8;
+}
+
+body #university {
+  background: #72a6c4a1;
+  padding: 0 0 3rem 0;
+}
+
+body #university h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  font-size: 2.5rem;
+  color: #393fa9;
+  letter-spacing: .3rem;
+  padding: 3rem 0 3rem 0;
+}
+
+body #university .uni-sec {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  margin: 1rem 9rem;
+}
+
+body #university .uni-sec .sub-uni-sec {
+  height: 32vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #university .uni-sec .sub-uni-sec i {
+  font-size: 7rem;
+  padding: 2rem;
+}
+
+body #university .uni-sec .sub-uni-sec p {
+  font-size: 1.2rem;
+  width: 20rem;
+  text-align: center;
+}
+
+body #university .uni-sec .sub-uni-sec p span {
+  font-size: 1.8rem;
+  color: #393fa9;
+}
+
+body #university .uni-sec .item4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: 2/1/5/4;
+  padding: 2rem;
+  background: #e3f5ff;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+}
+
+body #university .uni-sec .item4 p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-transform: lowercase;
+}
+
+body #university .uni-sec .item4 .com-btn {
+  border-radius: .6rem;
+  margin: 2rem .5rem 0 .5rem;
+  padding: .8rem 5rem;
+  border: none;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+body #university .uni-sec .item4 #subnow {
+  background: #ff2c2c;
+}
+
+body #university .uni-sec .item4 #subnow:hover {
+  background: #000000;
+}
+
+body #university .content-uni-sec {
+  color: white;
+  width: 50vw;
+  height: 30vh;
+}
+
+body #sponser {
+  height: 40vh;
+  background: #ffffff;
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #sponser h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  font-size: 2.5rem;
+}
+
+body #sponser img {
+  height: auto;
+  width: 20vw;
+}
+
+@media only screen and (max-width: 1220px) {
+  body #home {
+    width: 100%;
+  }
+  body #home .head {
+    width: 100%;
+  }
+  body #home .head .content {
+    width: 60vw;
+    padding: 0 0 3rem 0;
+  }
+  body #home .head .content-img img {
+    width: auto;
+    height: auto;
+  }
+  body #university h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  body #university .uni-sec {
+    display: block;
+  }
+  body #sponser {
+    margin: 1rem 4rem;
+    height: 27vh;
+  }
+  body #sponser h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body #home {
+    height: auto;
+  }
+  body #home .head {
+    padding: 1rem 7rem;
+  }
+  body #home .head .content h1 {
+    font-size: 2rem;
+  }
+  body #home .head .content p {
+    font-size: 1rem;
+  }
+  body #home .head .content-img {
+    display: none;
+  }
+  body #university h2 {
+    padding-top: 6rem;
+  }
+  body #university .uni-sec {
+    margin: 1rem 3rem;
+  }
+  body #sponser {
+    margin: 1rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #sponser h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  body #home {
+    height: auto;
+  }
+  body #home .head {
+    padding: 1rem 4rem;
+  }
+  body #home .head .content p {
+    display: none;
+  }
+  body #home .head .content label #country {
+    width: 10rem;
+  }
+  body #university h2 {
+    padding-top: 6rem;
+    font-size: 1.3rem;
+  }
+  body #university .uni-sec {
+    margin: 1rem 3rem;
+  }
+  body #university .uni-sec .item4 .com-btn {
+    padding: .8rem 2rem;
+  }
+  body #university .uni-sec .sub-uni-sec i {
+    font-size: 4rem;
+  }
+  body #university .uni-sec .sub-uni-sec p {
+    font-size: 1.1rem;
+  }
+  body #university .uni-sec .sub-uni-sec p span {
+    font-size: 1.5rem;
+  }
+  body #sponser {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 33vh;
+  }
+  body #sponser h2 {
+    text-align: center;
+  }
+  body #sponser img {
+    width: 40vw;
+  }
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  height: 95vh;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  position: relative;
+  /*margin: auto;*/
+}
+
+/* Caption text */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.dotactive {
+  background-color: #717171;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 1220px) {
+  img {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    height: 55vh;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  img {
+    height: 40vh;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,89 @@
+$orange: #c76565;
+$font-color: #f7ede0;
+
+@mixin flex($j-content) {
+  display: flex;
+  justify-content: $j-content;
+  align-items: center;
+}
+body{
+  .sectionContainer {
+    padding: 2rem 0 10rem 8rem;
+    width: 100%;
+    height: auto;
+    .mainCon {
+      height: 110vh;
+      display: grid;
+      grid-template-rows: 35% 65%;
+      .con23e4{
+        order: 1;
+        h2{
+          font-size: 5rem;
+          color: #1b7ace;
+          letter-spacing: .2rem;
+          margin: 0 0 1rem 2rem;
+        }
+        p{
+          color: #6f6c6c;
+          margin: 0 0 1rem 2rem;
+          width: 50vw;
+        }
+        button{
+          margin: 0 0 1rem 2rem;
+          padding: 1rem 3rem;
+          font-size: 1.2rem;
+          border: none;
+          border-radius: 25px;
+          color: #ffffff;
+          background : #1b7ace ;
+        }
+      }
+      .con12e3{
+        order: 0;
+        text-align: end;
+        padding: 0 10rem 0 0;
+        height: auto;
+        img{
+          width: 38vw;
+        }
+      }
+    }
+  }
+  @media only screen and  (max-width: 1220px){
+    .sectionContainer {
+      padding-left: 2rem;
+      .mainCon {
+        .con12e3 {
+          padding: 0 5rem 0 0;
+
+          img {
+            width: auto;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and  (max-width: 768px){
+    .sectionContainer{
+      padding-left: 1rem;
+      .mainCon{
+        .con12e3{
+          padding : 0 5rem 0 0;
+          img{
+            width: auto;
+            height: auto;
+          }
+        }
+        .con23e4{
+          h2{
+            font-size: 4rem;
+          }
+          p{
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}

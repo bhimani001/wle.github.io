@@ -1,0 +1,88 @@
+body .sectionContainer {
+  padding: 2rem 0 10rem 8rem;
+  width: 100%;
+  height: auto;
+}
+
+body .sectionContainer .mainCon {
+  height: 110vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 35% 65%;
+      grid-template-rows: 35% 65%;
+}
+
+body .sectionContainer .mainCon .con23e4 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+body .sectionContainer .mainCon .con23e4 h2 {
+  font-size: 5rem;
+  color: #1b7ace;
+  letter-spacing: .2rem;
+  margin: 0 0 1rem 2rem;
+}
+
+body .sectionContainer .mainCon .con23e4 p {
+  color: #6f6c6c;
+  margin: 0 0 1rem 2rem;
+  width: 50vw;
+}
+
+body .sectionContainer .mainCon .con23e4 button {
+  margin: 0 0 1rem 2rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  background: #1b7ace;
+}
+
+body .sectionContainer .mainCon .con12e3 {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  text-align: end;
+  padding: 0 10rem 0 0;
+  height: auto;
+}
+
+body .sectionContainer .mainCon .con12e3 img {
+  width: 38vw;
+}
+
+@media only screen and (max-width: 1220px) {
+  body .sectionContainer {
+    padding-left: 2rem;
+  }
+  body .sectionContainer .mainCon .con12e3 {
+    padding: 0 5rem 0 0;
+  }
+  body .sectionContainer .mainCon .con12e3 img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .sectionContainer {
+    padding-left: 1rem;
+  }
+  body .sectionContainer .mainCon .con12e3 {
+    padding: 0 5rem 0 0;
+  }
+  body .sectionContainer .mainCon .con12e3 img {
+    width: auto;
+    height: auto;
+  }
+  body .sectionContainer .mainCon .con23e4 h2 {
+    font-size: 4rem;
+  }
+  body .sectionContainer .mainCon .con23e4 p {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=joinus.css.map */

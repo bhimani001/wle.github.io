@@ -1,0 +1,209 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, #ffffff), color-stop(60%, #c76565));
+  background: linear-gradient(90deg, #ffffff 80%, #c76565 60%);
+}
+
+body .sectionContainer {
+  padding: 8em 0 10rem 8rem;
+  width: 100%;
+  height: auto;
+}
+
+body .sectionContainer .e4334-grid {
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+}
+
+body .sectionContainer .e4334-grid .sectionI {
+  background: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 25% 75%;
+      grid-template-rows: 25% 75%;
+}
+
+body .sectionContainer .e4334-grid .sectionI .h2Head {
+  padding: .4rem 1.6rem;
+}
+
+body .sectionContainer .e4334-grid .sectionI .h2Head h2 {
+  color: #221e1f;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+body .sectionContainer .e4334-grid .sectionI .h2Head p {
+  margin: 9px 2px;
+  font-size: 17px;
+}
+
+body .sectionContainer .e4334-grid .sectionI .content input {
+  height: 3.4rem;
+  display: block;
+  width: 47vw;
+  margin: 45px 24px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #c76565;
+  font-size: 17px;
+}
+
+body .sectionContainer .e4334-grid .sectionI .content textarea {
+  height: 8rem;
+  display: block;
+  width: 47vw;
+  margin: 30px 24px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #c76565;
+  font-size: 17px;
+  resize: none;
+}
+
+body .sectionContainer .e4334-grid .sectionI .content button {
+  padding: 15px 6px;
+  width: 9vw;
+  margin: 0 24px;
+  font-size: 17px;
+  font-weight: 600;
+  background: #c76565;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 9px;
+}
+
+body .sectionContainer .e4334-grid .sectionI .content button:hover {
+  background: #2922229e;
+}
+
+body .sectionContainer .e4334-grid .sectionII {
+  background: #000000;
+}
+
+body .sectionContainer .e4334-grid .sectionII .contactDetails {
+  padding: 1px 1px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+body .sectionContainer .e4334-grid .sectionII .contactDetails .items {
+  padding: 1px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .sectionContainer .e4334-grid .sectionII .contactDetails .items i {
+  font-size: 4.5rem;
+  padding: 12px 0;
+  color: #c76565;
+}
+
+body .sectionContainer .e4334-grid .sectionII .contactDetails .items p {
+  font-size: 1.3rem;
+  color: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .sectionContainer .e4334-grid .sectionII .contactDetails .items p a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+@media only screen and (max-width: 1220px) {
+  body .sectionContainer {
+    padding: 7rem 4rem 7rem 4rem;
+  }
+  body .sectionContainer .e4334-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .sectionContainer .e4334-grid .sectionI {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem;
+  }
+  body .sectionContainer .e4334-grid .sectionI .h2Head {
+    padding: 0 0;
+  }
+  body .sectionContainer .e4334-grid .sectionI .h2Head h2 {
+    font-size: 2.5rem;
+  }
+  body .sectionContainer .e4334-grid .sectionI .content {
+    padding-bottom: 2rem;
+  }
+  body .sectionContainer .e4334-grid .sectionI .content input {
+    width: 38vw;
+  }
+  body .sectionContainer .e4334-grid .sectionI .content textarea {
+    width: 38vw;
+  }
+  body .sectionContainer .e4334-grid .sectionI .content button {
+    width: 14vw;
+  }
+  body .sectionContainer .e4334-grid .sectionII {
+    width: 100%;
+  }
+  body .sectionContainer .e4334-grid .sectionII .contactDetails {
+    padding: 2rem 1rem;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .sectionContainer .e4334-grid .sectionII .contactDetails .items i {
+    font-size: 3.5rem;
+  }
+  body .sectionContainer .e4334-grid .sectionII .contactDetails .items p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .sectionContainer {
+    padding: 7rem 4rem 7rem 0;
+  }
+  body .sectionContainer .e4334-grid .sectionI {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .sectionContainer .e4334-grid .sectionI .h2Head {
+    padding: 0 1rem;
+  }
+  body .sectionContainer .e4334-grid .sectionI .h2Head p {
+    display: none;
+  }
+  body .sectionContainer .e4334-grid .sectionII {
+    display: none;
+  }
+}
+/*# sourceMappingURL=contactUs.css.map */
